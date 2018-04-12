@@ -18,7 +18,6 @@
   "browser_action": {
     "default_icon": "icons/spotify_128.png", 
     "default_title": "Spotify Launch"
-    // "default_popup": "popup.html"
   }, 
   "description": "Fast Launcher for Spotify Web Player", 
   "icons": {
