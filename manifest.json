@@ -9,12 +9,6 @@
       ]
     }
   ], 
-  "applications": {
-    "gecko": {
-      "id": "SpotifyLaunch@9holotpk",
-      "strict_min_version": "51.0"
-    }
-  },
   "browser_action": {
     "default_icon": "icons/spotify_128.png", 
     "default_title": "Spotify Launch"
@@ -29,7 +23,7 @@
     "scripts": [
       "background.js"
     ]
-  }, 
+  },
   "name": "Spotify Launch", 
   "options_ui": {
     "chrome_style": true, 
@@ -45,6 +39,7 @@
     "storage",
     "activeTab"
   ], 
+  "update_url": "https://extension-updates.opera.com/api/omaha/update/", 
   "developer": {
     "url": "http://twitter.com/9holotpk", 
     "name": "Sontaya T. Wichakot"
